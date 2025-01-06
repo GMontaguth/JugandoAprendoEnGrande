@@ -5,31 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jugando Aprendo en Grande</title>
     <style>
+        /* Estilos globales */
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f9f9f9;
             margin: 0;
             padding: 0;
         }
+
         header {
-            background-color: #4caf50;
+            background-color: #4CAF50; /* Cambia el color según el diseño */
             color: white;
-            padding: 1rem;
+            padding: 20px;
+            text-align: center;
         }
+
+        header img {
+            width: 150px;
+            height: auto;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #575757;
+        }
+
         section {
+            padding: 20px;
             margin: 20px;
+        }
+
+        .escudo {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .escudo img {
+            width: 200px;
+            height: auto;
+        }
+
+        .titulo-seccion {
+            font-size: 24px;
+            color: #4CAF50;
+            border-bottom: 2px solid #4CAF50;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+
+        .uniformes img, .noticias img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 10px;
+        }
+
+        .noticias article {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
         }
     </style>
 </head>
 <body>
     <header>
         <h1>Jugando Aprendo en Grande</h1>
+        <div class="escudo">
+            <img src="escudo.png" alt="Escudo institucional">
+        </div>
     </header>
-    <section>
-        <p>Bienvenidos a nuestro sitio web interactivo para aprender y jugar.</p>
-        <a href="#juegos">Explorar Juegos</a>
+
+    <nav>
+        <a href="#vision-mision">Visión y Misión</a>
+        <a href="#uniformes">Uniformes</a>
+        <a href="#noticias">Noticias</a>
+    </nav>
+
+    <section id="vision-mision">
+        <h2 class="titulo-seccion">Visión y Misión</h2>
+        <p><strong>Visión:</strong> Ser el referente en aprendizaje dinámico e integral a través del juego.</p>
+        <p><strong>Misión:</strong> Promover el desarrollo de habilidades cognitivas, sociales y emocionales en un entorno lúdico y colaborativo.</p>
     </section>
+
+    <section id="uniformes">
+        <h2 class="titulo-seccion">Uniformes</h2>
+        <p>A continuación, mostramos los uniformes que representan nuestra identidad:</p>
+        <div>
+            <img src="uniformes.png" alt="Uniformes">
+            
+        </div>
+    </section>
+
+    <section id="noticias">
+        <h2 class="titulo-seccion">Noticias</h2>
+        <article>
+        <article>
+            <h3>Nueva alianza educativa</h3>
+            <p>Nos complace anunciar que nuestras matriculas estan abiertas.</p>
+            <img src="noticias.png" alt="Matriculas abiertas">
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Jugando Aprendo en Grande. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>
+
 
