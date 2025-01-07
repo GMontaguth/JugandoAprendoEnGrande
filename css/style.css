@@ -62,6 +62,13 @@
     color:var(--primary-font-color2);
 }
 
+.main-subtitle {
+    font-style: italic; /* Aplica cursiva */
+    color: white; /* Cambia el texto a blanco */
+    margin-top: 10px; /* Ajusta el espacio entre el título y el subtítulo */
+    display: block; /* Asegura que quede debajo del título */
+}
+
 .about-us,.services-class{
     margin-top: 3em;
     margin-bottom: 3em; 
